@@ -1,0 +1,47 @@
+# Basic
+title: Scott Zhang
+#subtitle: A personal blog and playground
+#welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: A personal blog and playground
+#creator: <a href="http://onev.cat">@onevcat</a>
+
+#url: "http://vno.onevcat.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+#cover_color: blue
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    #- {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: zhast460
+    # duoshuo: 
+    
+# Social
+social:
+    github: zhast460 
+    mail: cmoshadow@gmail.com
+    twitter: zhast460 
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
